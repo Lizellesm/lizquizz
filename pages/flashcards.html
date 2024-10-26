@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flitskaarte | Study Assistant</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --success-color: #22c55e;
+            --error-color: #ef4444;
+            --neutral-color: #64748b;
+            --background-color: #f1f5f9;
+            --card-background: #ffffff;
+            --text-color: #1f2937;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        #flashcard-container {
+            background-color: var(--card-background);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+        }
+
+        #flashcard-content {
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .card-text {
+            font-size: 1.25rem;
+            line-height: 1.75;
+            margin: 1rem 0;
+        }
+
+        #answer {
+            color: var(--primary-color);
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        #answer.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #flashcard-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .control-button {
+            background-color: var(--card-background);
+            border: 2px solid var(--neutral-color);
+            border-radius: 0.75rem;
+            padding: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .control-button:not(:disabled):hover {
+            transform: translateY(-2px);
+        }
+
+        #show-answer-button {
+            border-color: var(--primary-color);
+        }
+
+        #yes-button {
+            border-color: var(--success-color);
+        }
+
+        #no-button {
+            border-color: var(--error-color);
+        }
+
+        .control-button img {
+            width: 2rem;
+            height: 2rem;
+            object-fit: contain;
+        }
+
+        #hint-message {
+            color: var(--neutral-color);
+            font-size: 0.875rem;
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        #score-display {
+            font-weight: 600;
+            text-align: center;
+            color: var(--primary-color);
+            margin: 1rem 0;
+        }
+
+        #progress-container {
+            width: 100%;
+            height: 0.5rem;
+            background-color: var(--background-color);
+            border-radius: 0.25rem;
+            overflow: hidden;
+            margin-top: 1.5rem;
+        }
+
+        #progress-bar {
+            height: 100%;
+            background-color: var(--primary-color);
+            transition: width 0.5s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.75rem;
+        }
+
+        .completion-message {
+            text-align: center;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 640px) {
+            #flashcard-container {
+                padding: 1rem;
+            }
+
+            .card-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="flashcard-container">
+        <div id="flashcard-content">
+            <p id="question" class="card-text">Loading question...</p>
+            <p id="answer" class="card-text">Answer will appear here</p>
+        </div>
+
+        <div id="flashcard-controls">
+            <button id="no-button" class="control-button" disabled>
+                <img src="../assets/no.png" alt="Incorrect">
+            </button>
+            <button id="show-answer-button" class="control-button">
+                <img src="../assets/answer.png" alt="Show answer">
+            </button>
+            <button id="yes-button" class="control-button" disabled>
+                <img src="../assets/yes.png" alt="Correct">
+            </button>
+        </div>
+
+        <p id="hint-message">Druk '?' om voort te gaan</p>
+        <div id="score-display">Telling: 0</div>
+
+        <div id="progress-container">
+            <div id="progress-bar">0%</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let currentIndex = 0;
+            let flashcards = [];
+            let score = 0;
+            let answerRevealed = false;
+    
+            async function loadFlashcards() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const params = ['grade', 'subject', 'semester', 'chapter'].reduce((acc, param) => {
+                    acc[param] = urlParams.get(param);
+                    return acc;
+                }, {});
+    
+                try {
+                    const response = await fetch('../data/flashcards.json');
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    
+                    const data = await response.json();
+                    flashcards = data.grade?.[params.grade]?.subjects?.[params.subject]?.semesters?.[params.semester]?.chapters?.[params.chapter] || [];
+    
+                    if (!flashcards.length) throw new Error('Geen flitskaarte gevind nie');
+    
+                    // Shuffle the flashcards array to randomize questions
+                    flashcards = shuffleArray(flashcards);
+    
+                    loadFlashcard(0);
+                    updateProgressBar();
+                } catch (error) {
+                    showError(error.message);
+                }
+            }
+    
+            // Function to shuffle an array (Fisher-Yates Shuffle)
+            function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+    
+            function loadFlashcard(index) {
+                if (index < 0 || index >= flashcards.length) return;
+    
+                const flashcard = flashcards[index];
+                document.getElementById('question').textContent = flashcard.question;
+                document.getElementById('answer').textContent = ''; // Hide the answer initially
+                document.getElementById('answer').classList.remove('visible');
+    
+                resetControls();
+                updateProgressBar();
+            }
+    
+            function resetControls() {
+                document.getElementById('yes-button').disabled = true;
+                document.getElementById('no-button').disabled = true;
+                document.getElementById('hint-message').style.display = 'block';
+                answerRevealed = false;
+            }
+    
+            function updateScore(correct) {
+                if (correct) score++;
+                document.getElementById('score-display').textContent = `Telling: ${score}`;
+                updateProgressBar();
+            }
+    
+            function updateProgressBar() {
+                const progress = ((currentIndex + 1) / flashcards.length) * 100;
+                const progressBar = document.getElementById('progress-bar');
+                progressBar.style.width = `${progress}%`;
+                progressBar.textContent = `${Math.round(progress)}%`;
+            }
+    
+            function showFinalScore() {
+                const percentageScore = (score / flashcards.length) * 100;
+                const chapter = new URLSearchParams(window.location.search).get('chapter');
+                localStorage.setItem(`flashcard-score-${chapter}`, percentageScore.toFixed(2));
+    
+                const container = document.getElementById('flashcard-content');
+                container.innerHTML = `
+                    <div class="completion-message">
+                        <h2>Goed gedaan!</h2>
+                        <p>Finale telling: ${score} uit ${flashcards.length}</p>
+                        <p>Persentasie: ${percentageScore.toFixed(0)}%</p>
+                        <button id="back-home-button" style="background-color: var(--primary-color); color: white; padding: 1rem 2rem; border: none; border-radius: 0.5rem; cursor: pointer;">Terug na Tuisblad</button>
+                    </div>
+                `;
+    
+                document.getElementById('flashcard-controls').style.display = 'none';
+    
+                // Add event listener to the "Back to Home" button
+                document.getElementById('back-home-button').addEventListener('click', () => {
+                    window.location.href = 'grade5home.html'; // Redirect to home page
+                });
+            }
+    
+            // Event Listeners
+            document.getElementById('show-answer-button').addEventListener('click', () => {
+                document.getElementById('answer').textContent = flashcards[currentIndex].answer; // Show the answer text
+                document.getElementById('answer').classList.add('visible');
+                document.getElementById('yes-button').disabled = false;
+                document.getElementById('no-button').disabled = false;
+                document.getElementById('hint-message').style.display = 'none';
+                answerRevealed = true;
+            });
+    
+            ['yes', 'no'].forEach(type => {
+                document.getElementById(`${type}-button`).addEventListener('click', () => {
+                    if (!answerRevealed) return;
+                    
+                    updateScore(type === 'yes');
+                    if (currentIndex < flashcards.length - 1) {
+                        currentIndex++;
+                        loadFlashcard(currentIndex);
+                    } else {
+                        showFinalScore();
+                    }
+                });
+            });
+    
+            loadFlashcards();
+        });
+    </script>
+    
+</body>
+</html>

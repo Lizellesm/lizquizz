@@ -1,0 +1,861 @@
+{
+    "grade":{
+        "5":{
+            "subjects": {
+                "history": {
+                    "semesters": {
+                        "4": {
+                            "chapters": {
+                                "chapter1": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat is die hoofstad van Limpopo?",
+                                        "answer": "Polokwane"
+                                                                        },
+                                    {
+                                        "id": 2,
+                                        "question": "Wat is die hoofstad van Wes-Kaap?",
+                                        "answer": "Kaapstad"                                
+                                    },
+                                    {
+                                        "id": 3,
+                                        "question": "Wat is die hoofstad van Kwa-Zulu Natal?",
+                                        "answer": "Pietermaritzburg"
+                                    
+                                    },
+                                    {
+                                        "id": 4,
+                                        "question": "Wat is die hoofstad van Noord-Wes?",
+                                        "answer": "Mahikeng"
+                                    
+                                    },
+                                    {
+                                        "id": 5,
+                                        "question": "Wat is die hoofstad van Oos-Kaap?",
+                                        "answer": "Bisho"
+                                    
+                                    },
+                                    {
+                                        "id": 6,
+                                        "question": "Wat is die hoofstad van Mpumalanga?",
+                                        "answer": "Mbombela"
+                                    
+                                    },
+                                    {
+                                        "id": 7,
+                                        "question": "Wat is die hoofstad van Vrystaat?",
+                                        "answer": "Bloemfontein"
+                                    
+                                    },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat is die hoofstad van Gauteng?",
+                                        "answer": "Johannesburg"
+                                    
+                                    },
+                                    {
+                                        "id": 9,
+                                        "question": "Wat is die hoofstad van Noord-Kaap?",
+                                        "answer": "Kimberley"
+                                    
+                                    },
+                                    {
+                                        "id": 10,
+                                        "question": "Hoeveel provinsies het Suid-Afrika?",
+                                        "answer": "9"
+                                    
+                                    }
+                                ],
+                                "chapter2": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat beteken erfenis?",
+                                        "answer": "Tradisies, waardes en kulture wat deur vorige geslagte oorgedra is"
+                                        },
+                                    {
+                                        "id": 2,
+                                        "question": "Erfenis waaraan ons kan raak?",
+                                        "answer": "Ou musiekinstrumente, ou geboue en dorpe, kuns, handewerk"
+                                            },
+                                            {
+                                        "id": 3,
+                                        "question": "Erfenis wat ons nie kan sien nie?",
+                                        "answer": "Familietradiesies, godsdienste, lofgedigte, musiek, liedere, dans en feeste"
+                                            },
+                                    {
+                                        "id": 4,
+                                        "question": "Is die natuurlike omgewing van Suid-Afrika deel van ons erfenis?",
+                                        "answer": "Ja, want dit moet bewaar word vir ons nageslag."
+                                                    }
+                                
+                                                ],
+                                "chapter3": [
+                                    {
+                                        "id": 14,
+                                        "question": "Watter erfenis is in Gauteng?",
+                                        "answer": "Wieg van die Mensdom."
+                                                                        },
+                                    {
+                                        "id": 15,
+                                        "question": "Waar in Gauteng is die Wieg van die Mensdom?",
+                                        "answer": "Net buite Johannesburg."                                
+                                    },
+                                    {
+                                        "id": 16,
+                                        "question": "Wat sien ons by die Wieg van die Mensdom?",
+                                        "answer": "Ons sien dat diere en plante meer as 3 miljoen jaar gelede geleef het."                                
+                                    },
+                                    {
+                                        "id": 17,
+                                        "question": "Wanneer is die fossiel wat soos 'n aap lyk, ontdek?",
+                                        "answer": "1947"                                
+                                    },
+                                    {
+                                        "id": 18,
+                                        "question": "Het dit net soos 'n aap gelyk?",
+                                        "answer": "Dit het eienskappe van 'n mens en 'n aap gehad."                                
+                                    },
+                                    {
+                                        "id": 19,
+                                        "question": "Noem die drie eienskappe wat verskil van 'n aap?",
+                                        "answer": "Dit het nie 'n snoet of groot slagtande gehad nie. Die skedel, heup, en voetbene het gewys dat dit regop kon loop soos 'n mens."                                
+                                    },
+                                    {
+                                        "id": 20,
+                                        "question": "Het die ape tot mense ontwikkel en hoekom dink jy so?",
+                                        "answer": "Wetenskaplikes het soortgelyke fossiele gevind wat wys hoe die aapagtige wesens geleidelik ontwikkel het tot mense."                                
+                                    },
+                                    {
+                                        "id": 21,
+                                        "question": "Wat beteken die woord 'ontwikkel'?",
+                                        "answer": "Stadig oor 'n lang tyd verander."                                
+                                    },
+                                    {
+                                        "id": 22,
+                                        "question": "Wat beteken die woord 'slagtand'?",
+                                        "answer": "Een van die vier skerp tande voor in 'n dier se bek."                                
+                                    },
+                                    {
+                                        "id": 23,
+                                        "question": "Wat beteken die woord 'snoet'?",
+                                        "answer": "Die neus en bek van sommige diere."                                
+                                    }
+                                ],
+                                "chapter4": [
+                                    {
+                                        "id": 1,
+                                        "question": "Watter erfenis is in Limpopo?",
+                                        "answer": "Goue voorwerpe by Mapungubwe."
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Watter koninkryk was hier gewees?",
+                                        "answer": "Die Shona-koninkryk."
+                                                                            },
+                                    {
+                                        "id": 3,
+                                        "question": "Waarmee het die vaardige handwerkers gewerk?",
+                                        "answer": "Yster, koper en goud."
+                                                                            },
+                                    {
+                                        "id": 4,
+                                        "question": "Watter beelde het die argeoloë hier gevind?",
+                                        "answer": "Goue renosters, goue septers en 'n goue bak."
+                                                                            },
+                                    {
+                                        "id": 5,
+                                        "question": "Waar is die items gevind?",
+                                        "answer": "Dit is in die koninklike graf gevind."
+                                                                            },
+                                    {
+                                        "id": 6,
+                                        "question": "Die Shona-mense beskou die renoster as 'n simbool van wat?",
+                                        "answer": "'n Simbool van leierskap."
+                                                                            }
+
+                                ],
+                                "chapter5": [
+                                    {
+                                        "id": 1,
+                                        "question": "Watter erfenis is in Noord-Kaap?",
+                                        "answer": "Frances Baard"
+                                                                            },
+                                                                            {
+                                        "id": 2,
+                                        "question": "Waaraan het sy haar lewe gewy?",
+                                        "answer": "Sy het haar lewe gewy aan die stryd vir gelyke regte vir alle mense in Suid-Afrika."
+                                                                            },
+                                                                            {
+                                        "id": 3,
+                                        "question": "Watter werk het Ma Baard verrig?",
+                                        "answer": "Sy was eers 'n onderwyser, daarna het sy by 'n inmaakfabriek gewerk in Oos-Kaap."
+                                                                            } ,
+                                                                    {
+                                        "id": 4,
+                                        "question": "Wat het sy by die inmaakfabriek verrig?",
+                                        "answer": "Sy het gehelp om 'n vakbond te stig met die doel om beter betaling en werksomstandighede te verseker."
+                                                                            },
+                                        {
+                                        "id": 5,
+                                        "question": "Hoekom was sy 5 jaar tronk toe gestuur?",
+                                        "answer": "Sy was lid van die ANC, wat destyds onwettig was, en is daarom vir 5 jaar tronk toe gestuur."
+                                                                            }                
+                                         
+                                                                            
+                                ],
+                                "chapter6" :[
+                                    {
+                                        "id": 1,
+                                        "question": "Watter erfenis kry ons in die Vrystaat?",
+                                        "answer": "Mangaung"
+                                                                            },
+                                                                            {
+                                        "id": 2,
+                                        "question": "Wat beteken Mangaung?",
+                                        "answer": "Plek van die jagluiperds."
+                                                                            },
+                                                                             {
+                                        "id": 3,
+                                        "question": "Wat beteken Bloemfontein?",
+                                        "answer": "Bloemfontein' beteken 'blomfontein' of 'bron (van die rivier)'."
+                                                                            },
+                                                                            {
+                                        "id": 4,
+                                        "question": "Na wie is Bloemfontein vernoem?",
+                                        "answer": "Dalk na 'n KhoiSan-leier met die naam Jan Blom, of na die plaas met die naam Bloemfontein."
+                                                                            },
+                                        {
+                                        "id": 5,
+                                        "question": "Watter naam het die Oranje rivier eers gehad?",
+                                        "answer": "Gariep-rivier – Gariep beteken 'groot water'."
+                                                                            },
+                                                                            {
+                                        "id": 6,
+                                        "question": "Wie het dit die Oranjerivier genoem en hoekom?",
+                                        "answer": "Hollandse mense het dit die Oranjerivier genoem omdat die sand 'n effense oranje kleur gehad het."
+                                                                            }
+
+
+                                ]
+                            }
+                        },
+                        "2": {
+                            "chapters": {
+                                "chapter1": [
+                                    {
+                                        "id": 4,
+                                        "question": "What is 3 x 3?",
+                                        "answer": "9"
+                                        
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                    },
+                    
+                
+                "geology": {
+                    "semesters": {
+                        "4": {
+                            "chapters": {
+                                "chapter1": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat is mineraal-hulpbronne?",
+                                        "answer": "Hulpbronne is wat ons nodig het om te lewe en werk. Minerale is hulpbronne wat in rotse voorkom sood goud en yster"
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Wat is hernubare hulpbronne?",
+                                        "answer": "Dit is hulpbronne wat hulself weer kan aanvul of hernu soos water"
+                                                                          },
+                                    {
+                                        "id": 3,
+                                        "question": "Wat is nie-hernubare hulpbronne?",
+                                        "answer": "Hulpbronne wat nie hulself kan aanvul. Wanneer hul opgebruik is, is daar niks oor nie soos goud."
+                                                                          },
+                                    {
+                                        "id": 4,
+                                        "question": "Wat is minerle?",
+                                        "answer": "Soliede stowwe wat natuurlik in die Aarde voorkom."
+                                                                          },
+                                    {
+                                        "id": 5,
+                                        "question": "Suid-Afrika is die wereld se grootste produsent van watter minerale?",
+                                        "answer": "Goud, platinum en chroom."
+                                                                          },
+                                    {
+                                        "id": 6,
+                                        "question": "Hoeveel van die minerale wat in Suid-Afrika ontgin word, word uitgevoer?",
+                                        "answer": "Meer as driekwart."
+                                                                          },
+                                    {
+                                        "id": 7,
+                                        "question": "Noem 8 van Suid-Afrika se belangrikste minerale-hulpbronne?",
+                                        "answer": "1.Goud 2.Platinum 3.Diamante  4.Ystererts 5.Chroom, 6.Koper 7.Silwer 8. Mangaan."
+                                                                          },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat word goudstawe genoem?",
+                                        "answer": "Gietblokke."
+                                                                          },
+                                    {
+                                        "id": 9,
+                                        "question": "Waarvoor gebruik ons goud?",
+                                        "answer": "Vir munte, medaljes, juweliersware en tandvullings."
+                                                                          },
+                                    {
+                                        "id": 10,
+                                        "question": "Is platinum volop of skaars?",
+                                        "answer": "Baie skaars, Suid-Afrika besit die meeste reserwes in die wereld."
+                                                                          },
+                                                                          {
+                                        "id": 10,
+                                        "question": "Waarvoor gebruik ons platinum?",
+                                        "answer": "1.Om uitlaatgasse wat van motors en masjiene afgegee word skadeloos te maak. Alle motors in die wereld meot met die omsetters gebou word. 2. Hardeskywe van rekenaars te bou. 3. Juwele wat meer waardevol is as goud"
+                                                                          }
+                                                                          
+                                                                        
+                                ],
+                                "chapter2": [
+                                    {
+                                        "id": 7,
+                                        "question": "What is the main gas plants absorb?",
+                                        "answer": "Carbon Dioxide",
+                                        "tags": ["biology", "photosynthesis"]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "nature_science": {
+                    "semesters": {
+                        "4": {
+                            "chapters": {
+                                "chapter1": [
+                                    {
+                                        "id": 1,
+                                        "question": "Watter rigting kom die son op en sak die son?",
+                                        "answer": "Die Son kom op in die ooste en sak in die weste. [Op=Ooste]"
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Wat veroorsaak dag en nag?",
+                                        "answer": "Die aarde se rotasie."
+                                                                          },
+                                                                          {
+                                        "id": 3,
+                                        "question": "Hoe lank neem dit die Aarde om een rotasie te voltooi?",
+                                        "answer": "24 uur of 1 dag."
+                                                                          },
+                                    {
+                                        "id": 4,
+                                        "question": "Wat veroorsaak die verskillende seisoene?",
+                                        "answer": "Die aarde se kanteling en sy wentelbaan om die Son."
+                                                                          },
+                                    {
+                                        "id": 5,
+                                        "question": "Noem die agt planete in ons sonnestelsel",
+                                        "answer": "Mercurius, Venus, Aarde, Mars, Jupiter, Saturnus, Uranus, en Neptunus."
+                                                                          },
+                                    {
+                                        "id": 6,
+                                        "question": "Wat is 'n wentelbaan?",
+                                        "answer": "Dit is die pad wat 'n planeet volg wanneer dit om die Son beweeg."
+                                                                          },
+                                    {
+                                        "id": 7,
+                                        "question": "Hoe lank neem dit die Aarde om een keer om die Son te beweeg?",
+                                        "answer": "1 jaar (365 en 'n kwart dae)."
+                                                                          },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat beteken roteer?",
+                                        "answer": "Draai. Die Aarde roteer om sy eie as."
+                                                                          },
+                                                                        {
+                                        "id": 9,
+                                        "question": "Noem die vier seisoene? ",
+                                        "answer": "Somer, winter, lente en herfs."
+                                                                          },
+                                    {
+                                        "id": 10,
+                                        "question": "Wat is die vorm van die Aarde se wentelbaan?",
+                                        "answer": "Ovaalvormig, met die Son in die middel."
+                                                                          },
+                                {
+                                        "id": 11,
+                                        "question": "Hoekom kan ons nie die Aarde se as sien nie?",
+                                        "answer": "Die as is 'n denkbeeldige lyn."
+                                                                          }
+                                ],
+                                "chapter2": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat is die aardkors?",
+                                        "answer": "Die harde laag aan die buitekant van die Aarde."
+                                                                            },
+                                   {
+                                        "id": 2,
+                                        "question": "Waaruit bestaan die aardkors?",
+                                        "answer": "Rotse en grond. "
+                                                                            },
+                                   {
+                                        "id": 3,
+                                        "question": "Is die aardkors ook onder die see?",
+                                        "answer": "Ja, dit strek onder die hele Aarde, insluitend die oseane."
+                                                                            },
+                                    {
+                                        "id": 4,
+                                        "question": "Noem die vier hoofelemente wat nodig is vir lewe op Aarde.",
+                                        "answer": "Grond, lug, water en sonlig "
+                                                                            },
+                                    {
+                                        "id": 5,
+                                        "question": "Hoekom is grond belangrik? (2)",
+                                        "answer": "1. Meeste plante groei in grond. 2. Grond bevat minerale wat plante nodig het om te groei. "
+                                                                            },
+                                    {
+                                        "id": 6,
+                                        "question": "Hoekom is die lug belangrik?",
+                                        "answer": "Lug bevat suurstof wat alle lewende dinge nodig het om te leef. "
+                                                                            },
+                                    {
+                                        "id": 7,
+                                        "question": "Wat is die belangrikste rolle van water? (3)",
+                                        "answer": "1. Plante gebruik water om hul eie kos te maak. 2. Lewende wesens kan uitdroog en doodgaan sonder water. 3. Water los minerale op sodat plante dit kan opneem."
+                                                                            },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat is die belangrikste rolle van sonlig? (2)",
+                                        "answer": "1. Sonlig is die hoofbron van energie. 2. Plante gebruik sonlig om kos te maak, en sodoende word energie deur die voedselketting oorgedra."
+                                                                            },
+                                    {
+                                        "id": 9,
+                                        "question": "Hoe help sonlig die menslike liggaam?",
+                                        "answer": "Dit help die liggaam om vitamien D te vervaardig, wat belangrik is vir sterk bene. "
+                                                                            },
+                                    {
+                                        "id": 10,
+                                        "question": "Hoekom plant boere nie dieselfde plante in dieselfde grond nie?",
+                                        "answer": "Minerale raak uitgeput."
+                                                                            }
+                                                                            
+                                
+                                ],
+                                "chapter3": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat beteken 'struktuur' van grond?",
+                                        "answer": "Hoe die verskillende dele van grond bymekaargesit word."
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Waaruit bestaan grond? (3 lae)",
+                                        "answer": "Bogrond, ondergrond en rotse. "
+                                                                               },
+                                    {
+                                        "id": 3,
+                                        "question": "Waar kry ons die bogrond?",
+                                        "answer": "Bogrond is die boonste laag grond waarin plante groei. "
+                                                                               },
+                                    {
+                                        "id": 4,
+                                        "question": "Waaruit bestaan bogrond? (4)",
+                                        "answer": "1. Sandkorreltjies 2.Plant- en diermateriale 3.Lug 4.Water. "
+                                                                                                                       },
+                                   {
+                                        "id": 5,
+                                        "question": "Hoe word bogrond gevorm? (2)",
+                                        "answer": "1. Wanneer rotse in kleiner stukkies breek. 2. Sandkorrels meng met lug, water, plant en dier materiaal."
+                                                                                                                       },
+                                    {
+                                        "id": 6,
+                                        "question": "Hoekom is bogrond donkerder van kleur?",
+                                        "answer": "Dit is donkerder as gevolg van dooie en lewende plante, sowel as dooie diere wat in die grond voorkom. "
+                                                                                                                       },
+                                    {
+                                        "id": 7,
+                                        "question": "Waar kry ons die ondergrond?",
+                                        "answer": "Ondergrond kom net onder die bogrond voor."
+                                                                                                                       },
+                                    {
+                                        "id": 8,
+                                        "question": "Waaruit bestaan ondergrond? (2)",
+                                        "answer": "1. Groter stukke rotse 2. Enkele klein deeltjies wat van die bogrond af kom"
+                                                                                                                       },
+                                    {
+                                        "id": 9,
+                                        "question": "Watter kleur is ondergrond?",
+                                        "answer": "Dit is ligter van kleur as die bogrond."
+                                                                                                                       },
+                                    {
+                                        "id": 10,
+                                        "question": "Wat gebeur in die ondergrond?",
+                                        "answer": "Groter bome se wortels groei tot in die ondergrond, maar daar is min ander lewe"
+                                                                                                                       },
+                                    {
+                                        "id": 11,
+                                        "question": "Wat is rotse?",
+                                        "answer": "Rotse is groot stukke vaste materiaal "
+                                                                                                                       },
+                                    {
+                                        "id": 12,
+                                        "question": "Waar kom sand vandaan?",
+                                        "answer": "Sand ontstaan wanneer groot rotse opbreek in kleiner rotse en klippe, wat verder afgebreek word tot sand."
+                                                                                                                       },
+                                    {
+                                        "id": 13,
+                                        "question": "Hoekom is grond vir plante belangrik? (4)",
+                                        "answer": "1. Plante groei in grond. 2. Plante anker hulself in grond. 3. Plante se wortels neem water uit die grond op. 4. Plante neem minerale uit die grond op."
+                                                                                                                       },
+                                    {
+                                        "id": 14,
+                                        "question": "Hoe plant plante voort?",
+                                        "answer": "Plante maak sade. "
+                                                                                                                       },
+                                    {
+                                        "id": 15,
+                                        "question": "Wat is habitat?",
+                                        "answer": "n Habitat is 'n dier of plant se natuurlike tuiste."
+                                                                                                                       },
+                                    {
+                                        "id": 16,
+                                        "question": "Noem twee voorbeelde van diere wat in die grond lewe.",
+                                        "answer": "Erdwurms, molle, slakke en goggas."
+                                                                                                                       },
+                                    {
+                                        "id": 17,
+                                        "question": "Hoe help erdwurms die grond? (3)",
+                                        "answer": "1. Hulle eet verrottende plantmateriaal 2. Hul beweging maak grond los sodat daar meer lug in die grond is. 3. Hulle is ook 'n voedselbron vir die voedselketting."
+                                                                                                                       }
+                                 ],
+                                "chapter4": [
+                                    {
+                                        "id": 1,
+                                        "question": "Waarvandaan kom sandkorrels?",
+                                        "answer": "Van gesteentes"
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Wat breek die gesteentes in klein stukkies op?",
+                                        "answer": "Water en wind. "
+                                                                               },
+                                    {
+                                        "id": 3,
+                                        "question": "Grond is gewoonlik 'n mengsel van wat? (Noem twee.)",
+                                        "answer": "1. Verskillende soorte grondkorrels 2. Ontbindende plant en dieremateriaal"
+                                                                               },
+                                    {
+                                        "id": 4,
+                                        "question": "Waar kom die minerale van grond vandaan?",
+                                        "answer": "Die steentes het die minerale. "
+                                                                                                                       },
+                                   {
+                                        "id": 5,
+                                        "question": "Waar kom die voedingstowwe in grond vandaan?",
+                                        "answer": "Die dele wat van plant en diere af kom."
+                                                                                                                       },
+                                    {
+                                        "id": 6,
+                                        "question": "Wat beteken ontbind?",
+                                        "answer": "Wanneer dooie plante en diere verrot en deel van die grond word."
+                                                                                                                       },
+                                    {
+                                        "id": 7,
+                                        "question": "Noem die drie verskillende grondtipes?",
+                                        "answer": "Sanderige grond, kleierige grond en leemgrond."
+                                                                                                                       },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat is proporsies?",
+                                        "answer": "Die verhouding tussen verskillende dele t.o.v. grootte en hoeveelheid."
+                                                                                                                       },
+                                    {
+                                        "id": 9,
+                                        "question": "Noem die vier items wat alle grondsoorte bevat?",
+                                        "answer": "Grondkorrels, lug, water, dier en plantmateriaal."
+                                                                                                                       },
+                                    {
+                                        "id": 10,
+                                        "question": "Hoe lyk sanderige grond? (5)",
+                                        "answer": "1. Hoë verhouding growwe sandkorrels. 2. Baie growwe tekstuur. 3. Groot ruimtes tussen deeltjies. 4. Bevat baie lug. 5. Kan water hou, maar nie baie goed nie"
+                                                                                                                       },
+                                    {
+                                        "id": 11,
+                                        "question": "Hoe lyk kleierige grond?(5)",
+                                        "answer": "1. Hoë verhouding fyn kleikorrels. 2. Gladde tekstuur. 3. Ruimtes tussen deeltjies is baie kleiner. 4. Bevat baie min lug. 5. Kan baie water hou."
+                                                                                                                       },
+                                    {
+                                        "id": 12,
+                                        "question": "Hoe lyk leemgrond? (5)",
+                                        "answer": "Dit is 'n mengsel van klei- en sandgrond."
+                                                                                                                       },
+                                    {
+                                        "id": 13,
+                                        "question": "Wat is humus? (4)",
+                                        "answer": "1.Dit is 'n donker stof. 2. Bestaan uit baie ontbindende plant- en dieremateriaal. 3.Dit verskaf voedingstowwe aan plante. 4.Help ook grond om meer water te hou."
+                                                                                                                       },
+                                    {
+                                        "id": 14,
+                                        "question": "Wat beteken absorbeer?",
+                                        "answer": "Om in te neem of op te suig."
+                                                                          }
+                                    
+                                 ],
+                                "chapter5": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat verweer gesteentes?",
+                                        "answer": "Water en die weer."
+                                                                            },
+                                    {
+                                        "id": 2,
+                                        "question": "Wat is sedimente?",
+                                        "answer": "Klein stukkies verweerde gesteentes."
+                                                                               },
+                                    {
+                                        "id": 3,
+                                        "question": "Hoe word sedimente gevorm? (5)",
+                                        "answer": " 1.Rotse breek in sedimente. 2.Wind en water vervoer dit. 3.Dit word in laagliggende gebiede neergelê. 4.Nuwe lae vorm. 5.Dit kompakteer en verhard."
+                                                                               },
+                                    {
+                                        "id": 4,
+                                        "question": "Is sedimente solied of in lae?",
+                                        "answer": "In verskillende lae."
+                                                                                                                       },
+                                   {
+                                        "id": 5,
+                                        "question": "Noem drie voorbeelde van algemene sedimentêre gesteentes.",
+                                        "answer": "Leiklip of skalie, sandsteen en kalksteen."
+                                                                                                                       },
+                                    {
+                                        "id": 6,
+                                        "question": "Waarvan is leiklip gevorm?",
+                                        "answer": "Dit is klei wat verhard het en in rots verander het."
+                                                                                                                       },
+                                    {
+                                        "id": 7,
+                                        "question": "Waarvan is sandsteen gevorm?",
+                                        "answer": "Sandkorrels wat aan mekaar vaskleef."
+                                                                                                                       },
+                                    {
+                                        "id": 8,
+                                        "question": "Is sandsteen hard of sag?",
+                                        "answer": "Sag en dit verkrummel maklik."
+                                                                                                                       },
+                                    {
+                                        "id": 9,
+                                        "question": "Waarvan is kalksteen gevorm?",
+                                        "answer": "Fossiele. Dit bestaan hoofsaaklik uit die minerale kalsiet en aragoniet."
+                                                                                                                       },
+                                    {
+                                        "id": 10,
+                                        "question": "Waarvoor gebruik ons kalksteen?",
+                                        "answer": "1. Om sement te maak. 2. Vir kryt. 3. Vir pleisterwerk."
+                                                                                                                       },
+                                    {
+                                        "id": 11,
+                                        "question": "Waarvoor gebruik ons leiklip?",
+                                        "answer": "1. Tydens die Steentydperk is dit gebruik vir messe en lemme. 2. Om vuur te maak. 3. Vir die vervaardiging van sement."
+                                                                                                                       },
+                                    {
+                                        "id": 12,
+                                        "question": "Waarvoor gebruik ons sandsteen?",
+                                        "answer": "1. Vir die bou van geboue. 2. Vir plaveisel, vloere en dakbedekkings."
+                                                                                                                       }
+                                                                       
+                                 ], 
+                                "chapter6": [
+                                    {
+                                        "id": 1,
+                                        "question": "Wat beteken bewaar?",
+                                        "answer": "Om veilig te bewaar teen besering, skade of vernietiging."
+                                                                          },
+                                    {
+                                        "id": 2,
+                                        "question": "Hoe word fossiele gevorm?",
+                                        "answer": "1. Wanneer plante of diere doodgaan beland dit op die grond. 2. Die dooie liggaam word deur 'n laag sedimente bedek. 3. Oor 'n lang tydperk vorm nog lae.  4. Oor 'n lang tydperk word die lae swaar en druk mekaar tot sedimentere gesteentes."
+                                                                          },
+                                                                          {
+                                        "id": 3,
+                                        "question": "Wat beteken herbou?",
+                                        "answer": "Om uit stukkies en brokkies op te bou."
+                                                                          },
+                                    {
+                                        "id": 4,
+                                        "question": "Wat is fossiele?",
+                                        "answer": "Oorblyfsels van antieke plante en diere wat in sedimentêre gesteentes behoue gebly het."
+                                                                          },
+                                    {
+                                        "id": 5,
+                                        "question": "Wat is die twee hoofsoorte fossiele?",
+                                        "answer": "Liggaamfossiele en spoorfossiele."
+                                                                          },
+                                    {
+                                        "id": 6,
+                                        "question": "Wat is liggaamfossiele?",
+                                        "answer": "Liggaamfossiele vorm uit die harde dele van plante en diere."
+                                                                          },
+                                    {
+                                        "id": 7,
+                                        "question": "Noem voorbeelde van liggaamfossiele?",
+                                        "answer": "Tande, bene, doppe, stingels, blare en sade"
+                                                                          },
+                                    {
+                                        "id": 8,
+                                        "question": "Wat kan ons bepaal uit fossiel tande?",
+                                        "answer": "Of 'n dier 'n karnivoor of omnivoor was."
+                                                                          },
+                                    {
+                                        "id": 9,
+                                        "question": "Watter fossiele kom die meeste voor, en hoekom?",
+                                        "answer": "Doppe, omdat dit hard is en maklik fossileer."
+                                                                          },
+                                    {
+                                        "id": 10,
+                                        "question": "Wat versteen maklik?",
+                                        "answer": "Stingels en sade"
+                                                                          },
+                                    {
+                                        "id": 11,
+                                        "question": "Wat is hars?",
+                                        "answer": "Klewerige stof wat plante afskei"
+                                                                          },
+                                    {
+                                        "id": 12,
+                                        "question": "Wat is barnsteen?",
+                                        "answer": "Gefossileerde en verharde boomgom."
+                                                                          }
+
+
+                                ]
+                            }
+                        
+                        }
+                    }
+                },
+
+                "lewensvaardigheid": {
+                    "semesters": {
+                        "4": {
+                            "chapters": {
+                                "chapter1": [
+                                    {
+                                        "id": 1,
+                                        "question": "Kan tuberkulose genees word?",
+                                        "answer": "Ja"
+                                                                        },
+                                                                        {
+                                        "id": 2,
+                                        "question": "Kan mense sterf van tuberkulose?",
+                                        "answer": "Ja"
+                                                                        },
+                                                                        {
+                                        "id": 3,
+                                        "question": "Ontwikkel tuberkulose vinnig of stadig?",
+                                        "answer": "Stadig"
+                                                                        },
+                                                                        {
+                                        "id": 4,
+                                        "question": "Kan tuberkulose oorgedra word van een mens na 'n ander?",
+                                        "answer": "Ja"
+                                                                        },
+                                                                        {
+                                        "id": 5,
+                                        "question": "Noem 5 simptome van tuberkulose?",
+                                        "answer": "1. Hoes wat lank aanhou. 2. Mens word swakker en maerder. 3. Mens voel moeg. 4. Jy wil nie eet nie. 5. Jy sweet in die nag."
+                                                                        },
+                                                                        {
+                                        "id": 6,
+                                        "question": "Het 'n persoon altyd al die simptome?",
+                                        "answer": "Nee party mense het net 1 of 'n paar."
+                                                                        },
+                                        {
+                                        "id": 7,
+                                        "question": "Wat is die vier stappe van die behandeling van tuberkulose?",
+                                        "answer": "1. Besoek 'n gesonheids kliniek. 2. Jou spoeg word onder mikroskoop gekyk vir TB- bakteriee. 3.  X-Trale van jou borskas word geneem 4. Jy kry pille."
+                                                                        },
+                                                                        {
+                                        "id": 8,
+                                        "question": "Hoekom is dit belangrik om die pille klaar te drink?",
+                                        "answer": "1. Die pille moet elke dag vir minstens ses maande, soms selfs vir twee jaar, gedrink word. 2. Die persoon moet die kursus voltooi. 3. As jy te vroeg ophou, is die bakterieë nog nie dood nie. 4. As jy weer siek word, is die bakterieë moontlik weerstandbiedend teen behandeling."
+                                                                        },
+                                                                         {
+                                        "id": 9,
+                                        "question": "Wat beteken weerstandigheid?",
+                                        "answer": "Die medisyne gaan nie dit so maklik regkry om die bakteriee 'n tweede keer dood te maak nie. "
+                                                                        },
+                                                                        {
+                                        "id": 10,
+                                        "question": "Hoe kan ons keer dat ons tuberkulose kry?",
+                                        "answer": "1. BCG-inenting. 2. Persone met TB moet hul monde bedek en nooit op die grond spoeg nie. 3. Almal in die huis moet getoets word vir TB indien een dit het. 4. Persoon moet apart slaap. 5. Verseker goeie ventilasie in leefruimtes. "
+                                                                        }
+
+                                                                        
+                                                                    ],
+                                "chapter2":[
+                                    {
+                                        "id": 1,
+                                        "question": "Wat veroorsaak diaree?",
+                                        "answer": "Kieme wat die liggaam deur die persoon se mond binnegaan, gewoonlik deur besmette voedsel of water."
+                                                                        },
+                                                                        {
+                                        "id": 2,
+                                        "question": "Noem vier simptome van diaree?",
+                                        "answer": "1. Maagkrampe. 2. Kort-kort na die toilet gaan. 3. Loperige ontlasting. 4. Ontlasting ruik anders as gewone stoelgang."
+                                                                        },
+                                                                        {
+                                        "id": 3,
+                                        "question": "Wat beteken dit as iemand ontwater? (5)",
+                                        "answer": "1. Dehidreer. 2. Nie genoeg vloeistowwe in die liggaam nie. 3. Mond is droog en skei min/geen urine uit nie. 4. Oë is diep in oogkaste weggesak. 5. Vel verloor rekbaarheid."
+                                                                        },
+                                                                        {
+                                        "id": 4,
+                                        "question": "Hoe word diaree behandel? (2)",
+                                        "answer": "1. Kinders drink een glas water vir elke waterige stoelgang. 2. Volwassenes drink 2 glase vir elke waterige stoelgang. 3. Drink water wat gekook en afgekoel is."
+                                                                        },
+                                                                        {
+                                        "id": 5,
+                                        "question": "Wat kan by die water gevoeg word? (3)",
+                                        "answer": "Een glas water, een teelepel suiker, en 'n bietjie sout."
+                                                                        },
+                                                                        {
+                                        "id": 6,
+                                        "question": "Hoekom moet die water gekook word?",
+                                        "answer": "Want kook dood kieme en bakterieë wat in besmette water voorkom. "
+                                                                        },
+                                                                        {
+                                        "id": 7,
+                                        "question": "Wat beteken aansteeklik?",
+                                        "answer": "Dit beteken 'n siekte is oordraagbaar en kan van een persoon na 'n ander versprei."
+                                                                        },
+                                        {
+                                        "id": 8,
+                                        "question": "Wat beteken ontlasting?",
+                                        "answer": "Afvalstowwe wat die liggaam deur die spysverteringskanaal verlaat. "
+                                                                        },
+                                                                        {
+                                        "id": 9,
+                                        "question": "Noem 'n paar aansteeklike siektes? (3)",
+                                        "answer": "Malaria, masels, cholera, polio, tifus, TB en bilharzia "
+                                                                        }
+
+
+
+
+                                ]
+                                                                    
+                                                                                                    
+            }
+        }
+    }
+                }
+            }
+        }
+    }
+}
+
+        

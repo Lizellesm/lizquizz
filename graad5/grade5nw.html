@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natuurwetenskap Onderwerpe</title>
+    <link rel="icon" href="data:,">
+
+    <style>
+        :root {
+    --primary-color: #ff8c00; /* Orange color */
+    --hover-color: #e07b00; /* Darker orange for hover */
+    --background-color: #fff8e1; /* Light orange background */
+    --card-background: #ffffff; /* White background for cards */
+    --text-color: #1f2937; /* Dark text for contrast */
+    --score-color: #ff6f00; /* Score color in a darker shade of orange */
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.subject-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.button {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #fff3e0; /* Light orange button */
+    transition: background-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffe0b2; /* Darker shade for hover */
+}
+
+.button img {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+}
+
+.score {
+    font-size: 0.875rem;
+    color: var(--score-color);
+}
+
+@media (max-width: 640px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: var(--hover-color);
+    margin-top: 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Natuurwetenskap</h1>
+        <h2>Kwartaal 4:</h2>
+    </header>
+    <div class="container">
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter1">
+            <div class="subject-header">1. Aarde</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter1">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter1">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter2">
+            <div class="subject-header">2. Rotse</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter2">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter2">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter3">
+            <div class="subject-header">3. Grond</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter3">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter3">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter4">
+            <div class="subject-header">4. Grondtipes</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter4">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter4">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter5">
+            <div class="subject-header">5. Sedimentêre Gesteentes</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter5">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter5">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" data-subject="nature_science" data-grade="5" data-semester="4" data-chapter="chapter6">
+            <div class="subject-header">6. Fossiele</div>
+            <div class="button-container">
+                <div class="button" data-type="flashcard">
+                    <img src="../assets/flashcard-icon.png" alt="Flashcard Icon">
+                    <div class="score" id="flashcard-score-chapter6">Punt: 0%</div>
+                </div>
+                <div class="button" data-type="multiple-choice">
+                    <img src="../assets/mcq-icon.png" alt="Multiple Choice Icon">
+                    <div class="score" id="mcq-score-chapter6">Punt: 0%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back button -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <button onclick="history.back()" style="background-color: var(--primary-color); color: white; padding: 1rem 2rem; border: none; border-radius: 0.5rem; cursor: pointer;">
+                Terug na vorige skerm
+            </button>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <button onclick="resetScores()" style="background-color: var(--primary-color); color: white; padding: 1rem 2rem; border: none; border-radius: 0.5rem; cursor: pointer;">
+                Stel Alle Punte Terug na 0%
+            </button>
+        </div>
+    </div>
+    <script>
+        function resetScores() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                const chapter = card.dataset.chapter;
+                console.log(`Resetting scores for chapter: ${chapter}`); // Log the chapter being reset
+    
+                ['flashcard', 'mcq'].forEach(type => {
+                    localStorage.setItem(`${type}-score-${chapter}`, 0); // Reset to 0%
+                    console.log(`Reset ${type}-score-${chapter} to 0`); // Log the reset operation
+                    const scoreElement = card.querySelector(`#${type}-score-${chapter}`);
+                    scoreElement.textContent = `Punt: 0%`; // Update the displayed score
+                    scoreElement.style.color = 'grey'; // Set color to grey for 0%
+                    scoreElement.style.fontWeight = 'bold'; // Ensure it's bold
+                });
+            });
+    
+            alert("Alle punte is suksesvol na 0% teruggestel.");
+        }
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+    
+            function loadScores() {
+                cards.forEach(card => {
+                    const chapter = card.dataset.chapter;
+    
+                    ['flashcard', 'mcq'].forEach(type => {
+                        const score = localStorage.getItem(`${type}-score-${chapter}`);
+                        const scoreElement = card.querySelector(`#${type}-score-${chapter}`);
+                        const label = type === 'flashcard' ? 'Punt' : 'Punt';
+                        
+                        if (score) {
+                            const scorePercentage = parseInt(score, 10); // Convert score to an integer
+                            scoreElement.textContent = `${label}: ${scorePercentage}%`;
+                            setScoreColor(scoreElement, scorePercentage); // Apply color based on score
+                        } else {
+                            console.log(`No score found for ${type}-score-${chapter}, defaulting to 0.`);
+                            scoreElement.textContent = `${label}: 0%`;
+                            setScoreColor(scoreElement, 0); // Apply color for 0%
+                        }
+                    });
+                });
+            }
+    
+            function setScoreColor(element, score) {
+                element.style.fontWeight = 'bold'; // Set all scores to bold
+                if (score === 0) {
+                    element.style.color = 'grey'; // Set color to grey for 0%
+                } else if (score >= 90) {
+                    element.style.color = 'purple';
+                } else if (score >= 80) {
+                    element.style.color = 'blue';
+                } else if (score >= 70) {
+                    element.style.color = 'green';
+                } else if (score >= 60) {
+                    element.style.color = 'orange';
+                } else if (score >= 50) {
+                    element.style.color = 'darkorange';
+                } else {
+                    element.style.color = 'red'; // Set color to red for below 50%
+                }
+            }
+    
+            function handleButtonClick(e) {
+                const button = e.target.closest('.button');
+                if (!button) return;
+    
+                const card = button.closest('.card');
+                const { grade, subject, semester, chapter } = card.dataset;
+                const type = button.dataset.type;
+    
+                const page = type === 'flashcard' ? '../pages/flashcards.html' : '../pages/multiple-choice.html';
+                const url = `${page}?grade=${grade}&subject=${subject}&semester=${semester}&chapter=${chapter}`;
+                window.location.href = url;
+            }
+    
+            loadScores();
+    
+            document.querySelectorAll('.button-container').forEach(container => {
+                container.addEventListener('click', handleButtonClick);
+            });
+        });
+    </script>
+    
+</body>
+</html>
